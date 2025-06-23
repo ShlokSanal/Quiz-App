@@ -1,0 +1,38 @@
+.leaderboard {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sort-buttons button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f8f8f8;
+}
